@@ -64,7 +64,7 @@ namespace Notepad
     {
       switch (option)
       {
-        case 1: Console.WriteLine("Editor.Show()"); break;
+        case 1: new Editor().Show(); break;
         case 2: Console.WriteLine("Viewer.Show()"); break;
         case 0:
           {
