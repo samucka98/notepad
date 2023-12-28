@@ -20,7 +20,7 @@ Para usar este aplicativo, você precisará ter o .NET Core instalado em sua má
 
 ## Contribuição
 
-Contribuições são bem-vindas. Se você quiser contribuir para este projeto, sinta-se à vontade para submeter um pull request. Certifique-se de seguir o guia de estilo do .NET 2.
+Contribuições são bem-vindas. Se você quiser contribuir para este projeto, sinta-se à vontade para submeter um pull request.
 
 ## Licença
 
