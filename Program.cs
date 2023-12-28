@@ -4,7 +4,8 @@
   {
     static void Main()
     {
-      Console.WriteLine("Notepad");
+      var menu = new Menu();
+      menu.Show();
     }
   }
 }
