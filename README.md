@@ -16,7 +16,7 @@ Este é um projeto de um aplicativo de console simples em C# chamado "Notepad". 
 
 ## Como Usar
 
-Para usar este aplicativo, você precisará ter o .NET Core instalado em sua máquina. Após a instalação, você pode clonar este repositório e executar o projeto usando o comando dotnet run.
+Para usar este aplicativo, você precisará ter o .NET Core instalado em sua máquina. Após a instalação, você pode clonar este repositório e executar o projeto usando os comandos `dotnet restore` && `dotnet run`.
 
 ## Contribuição
 
