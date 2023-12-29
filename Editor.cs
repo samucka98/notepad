@@ -32,6 +32,8 @@ namespace Notepad
       savefile.ShowOptionsSave();
       var option = short.Parse(Console.ReadLine());
       savefile.HandleOptionSave(option, file.ToString());
+
+      new Menu().Show();
     }
   }
 }

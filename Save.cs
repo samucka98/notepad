@@ -6,7 +6,7 @@ namespace Notepad
     public void SaveFile(string text)
     {
       Console.Clear();
-      Console.WriteLine("Qual o nome do arquivo? (Nao utilize caracteres especiais. Digite apenas o nome sem extensao!)");
+      Console.WriteLine("Qual o nome do arquivo?");
       string nameFile = Console.ReadLine();
       var baseDir = Directory.GetCurrentDirectory();
       var filesDir = Path.Combine(baseDir, "files");
