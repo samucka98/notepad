@@ -65,7 +65,7 @@ namespace Notepad
       switch (option)
       {
         case 1: new Editor().Show(); break;
-        case 2: new Viewer().Show(""); break;
+        case 2: new Viewer().Open(); break;
         case 0:
           {
             Console.Clear();

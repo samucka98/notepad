@@ -21,6 +21,22 @@ namespace Notepad
       menu.Show();
     }
 
+    public void Open()
+    {
+      Console.WriteLine("Qual o nome do arquivo? (Nao utilize caracteres especiais. Digite apenas o nome sem extensao!)");
+      string nameFile = Console.ReadLine();
+      var baseDir = Directory.GetCurrentDirectory();
+      var filesDir = Path.Combine(baseDir, "files");
+      var path = Path.Combine(filesDir, $"{nameFile}.txt");
+
+      using (var file = new StreamReader(path))
+      {
+        string text = file.ReadToEnd();
+        Console.WriteLine(text);
+        new Viewer().Show(text);
+      }
+    }
+
     protected void Replace(string text)
     {
       var strong = new Regex(@"<\s*strong[^>]*>(.*?)<\s*/\s*strong>");
