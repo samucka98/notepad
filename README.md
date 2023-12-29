@@ -11,8 +11,7 @@ Este é um projeto de um aplicativo de console simples em C# chamado "Notepad". 
 
 1. Criação de novos arquivos
 2. Abertura de arquivos existentes
-3. Utilização de tags `<title></title>` para marcar o texto como título
-4. Utilização de tags `<strong></strong>` para marcar o texto em negrito
+3. Utilização de tags `<strong></strong>` para marcar o texto em negrito
 
 ## Como Usar
 
