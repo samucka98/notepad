@@ -27,7 +27,7 @@ namespace Notepad
 
       Console.WriteLine("-------------------------------------------");
       Console.WriteLine("Deseja salvar este arquivo?");
-      // Chamar Visualizacao...
+      new Viewer().Show(file.ToString());
     }
   }
 }
