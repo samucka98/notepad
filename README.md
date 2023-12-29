@@ -6,6 +6,7 @@ Este é um projeto de um aplicativo de console simples em C# chamado "Notepad". 
 
 ![Menu do app](./assets/Menu.png)
 ![Editor do app](./assets/Editor.png)
+![View do app](./assets/Viewer.png)
 
 ## Recursos
 
